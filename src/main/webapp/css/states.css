@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+*{
+	margin: 0px;
+	padding:0px auto;
+}
+header{
+	font-family: Apple Chancery, cursive;
+	text-align: center;
+}
+body{
+	margin: 0px auto;
+	height: 700px;
+	width: 1000px;
+	background-image: radial-gradient(white, blue, white);
+}
+.table{
+	display: inline-block;
+	background-color: red;
+	height: 600px;
+	width: 125px;
+	overflow: auto;
+	border-radius: 10px;
+}
+.table a{
+	text-decoration: none;
+	color: white;
+}
+.messages{
+	vertical-align: top;
+	height: 600px;
+	width: 800px;
+	display: inline-block;
+	background-color: white;
+}
+.messages img{
+	width: 800px;
+	height: 600px;
+	text-align: center;
+	background-color: gray;
+}

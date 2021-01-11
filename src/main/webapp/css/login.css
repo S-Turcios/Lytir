@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+*{
+	margin: 0px auto;
+	padding: 0px;
+}
+body{
+	padding: 0px auto;
+	height: 650px;
+	width: 600px;
+	text-align: center;
+	background-image: linear-gradient(purple,black);
+}
+header h1{
+	font-size: 60px;
+	color: #03FFFF;
+}
+form{
+	color: purple;
+	background-color:#9700B5;
+	height: 200px;
+	width: 400px;
+	border-radius: 20px;
+	padding-top: 100px;
+}
+form p{
+	height: 40px;
+	width: 400px;
+	font-size:30px;
+	color: #03FFFF;
+}

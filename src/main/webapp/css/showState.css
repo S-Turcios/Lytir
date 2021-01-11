@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	margin: 0px auto;
+	height: 670px;
+	width: 900px;
+	background-image:linear-gradient(red, white, blue);
+}
+header{
+	font-size: 80px;
+	text-align: center;
+	font-weight: bold;
+}
+.post{
+	height: 500px;
+	width: 900px;
+	overflow: scroll;
+}
+.eachpost{
+	background-color: lightblue;
+	width: 800px;
+	padding: 10px;
+	border-radius: 20px;
+}
+.userpost{
+	background-color: lightgreen;
+	width: 800px;
+	padding: 10px;
+	border-radius: 20px;
+	text-align: end;
+}
+.userpost img{
+	height: 300px;
+}
+.eachpost img{
+	height: 300px;
+}
+.post .seperation{
+	height: 10px;
+}
