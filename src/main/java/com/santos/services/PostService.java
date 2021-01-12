@@ -1,6 +1,7 @@
 package com.santos.services;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -17,6 +18,9 @@ public class PostService {
 	}
 	public Posts createPost(Posts post) {
 		return postRepository.save(post);
+	}
+	public void deletePost(Long id) {
+		postRepository.deleteById(id);
 	}
 	public PostService() {
 		// TODO Auto-generated constructor stub

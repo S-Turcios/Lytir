@@ -12,7 +12,7 @@
 </head>
 <body>
 <h1>Welcome to Lytir Registration</h1>
-<a href="/login">Login</a>
+	<p class="login">Already have an account click here <a href="/login">Login</a> to login.</p>
     <div class="border">
     <form:form class="form" method="POST" action="/registration" modelAttribute="user">
     	<p>

@@ -9,8 +9,15 @@ body{
 	font-family: courier;
 	height: 700px;
 	width: 900px;
-	background-image: radial-gradient(blue,red,white);
+	background-image: linear-gradient(to bottom right, blue, red);
 	
+}
+p{
+	text-align: center;
+	color: white;
+}
+p a{
+	color: gold;
 }
 h1{
 	color: gold;

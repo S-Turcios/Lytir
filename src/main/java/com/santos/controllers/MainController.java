@@ -98,6 +98,11 @@ public class MainController {
     	}else
     		return "redirect:/states";
     }
+    @RequestMapping(value="/delete/{id}/{state_id}", method=RequestMethod.DELETE)
+    public String deletePost(@PathVariable("id")Long id, @PathVariable("state_id") Long s_id) {
+    	postService.deletePost(id);
+    	return "redirect:/state/" + s_id;
+    }
     @RequestMapping("/logout")
     public String logout(HttpSession session) {
         // invalidate session

@@ -26,6 +26,9 @@
 			<c:if test="${p.image != null}">
 			<img alt="picture" src="${p.image}">
 			</c:if>
+			<form:form action="/delete/${p.id}/${state.id}" method="delete">
+				<button type="submit">Delete</button>
+			</form:form>
 	</div>
 			</c:if>
 			<c:if test="${user.nickname != p.user}">

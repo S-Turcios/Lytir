@@ -8,15 +8,21 @@ body{
 	height: 650px;
 	width: 600px;
 	text-align: center;
-	background-image: linear-gradient(purple,black);
+	background-image: linear-gradient(to bottom, blue, white);
 }
 header h1{
 	font-size: 60px;
-	color: #03FFFF;
+	color: gold;
+}
+p{
+	color: white;
+}
+p a{
+	color: gold;
 }
 form{
-	color: purple;
-	background-color:#9700B5;
+	color: gold;
+	background-color:red;
 	height: 200px;
 	width: 400px;
 	border-radius: 20px;
@@ -26,5 +32,5 @@ form p{
 	height: 40px;
 	width: 400px;
 	font-size:30px;
-	color: #03FFFF;
+	color: gold;
 }

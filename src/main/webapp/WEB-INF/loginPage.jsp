@@ -12,7 +12,8 @@
 <title>Lytir Login</title>
 </head>
 <body>
-<header><h1>Welcome back to Lytir</h1><a href="/registration">Register</a></header>
+<header><h1>Welcome back to Lytir</h1></header>
+	   <p>Don't have an account click here <a href="/registration">Register</a>.</p> 
 	   <p><c:out value="${error}" /></p>
     <form method="post" action="/login">
         <p>
