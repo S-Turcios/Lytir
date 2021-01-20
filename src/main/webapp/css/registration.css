@@ -10,7 +10,7 @@ body{
 	height: 700px;
 	width: 900px;
 	background-image: linear-gradient(to bottom right, blue, red);
-	
+	background-size: 100% 100%;
 }
 p{
 	text-align: center;

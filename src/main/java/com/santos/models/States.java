@@ -43,6 +43,7 @@ public class States {
 	}
 	public States() {
 	}
+	
 	public Long getId() {
 		return id;
 	}

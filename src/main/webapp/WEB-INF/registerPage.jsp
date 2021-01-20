@@ -12,8 +12,9 @@
 </head>
 <body>
 <h1>Welcome to Lytir Registration</h1>
-	<p class="login">Already have an account click here <a href="/login">Login</a> to login.</p>
+	<p class="login">Already have an account click here <a href="/">Login</a> to login.</p>
     <div class="border">
+<p class="errors"><form:errors path="user.*"/></p>
     <form:form class="form" method="POST" action="/registration" modelAttribute="user">
     	<p>
     		<form:label path="name">Name:</form:label>
@@ -36,7 +37,6 @@
         <input type="submit" value="Register!"/>
     </form:form>
     </div>
-<p class="errors"><form:errors path="user.*"/></p>
-<p class="intro">Lytir is an interactive site for people to share with others about the palces they have been to and seen!</p>
+<p class="intro">Lytir is an interactive site for people to share with others about the places they have been to and seen!</p>
 </body>
 </html>
